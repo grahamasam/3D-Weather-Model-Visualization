@@ -1,9 +1,7 @@
-CS 530 Final Project
 3D Weather Model Visualization
 Graham Asam
 
 ______________________________
-
 
 To run the visualization using the provided files, run the command:
 
@@ -11,6 +9,13 @@ python atmosphere_vis.py --folder1 clm_2025-04-08 0.0001 --folder2 temperature_2
 
 NOTE: requires the 'vtk_camera.py' helper file. It has been included in the submission files.
       requires 'vtk' and 'PyQt6'
+
+______________________________
+
+Example Images:
+
+![img1](report_images/Screenshot00000.png)
+
 
 ______________________________
 
@@ -81,6 +86,7 @@ pressure_layer_time_extract.py
   Same global variables as combo_grab_volume.py, with one additional variable.
     TARGET_LEVEL - change which pressure layer is extracted (HRRR has pressure layers
                    at 25 hPa increments: 1000, 975, 950, ...).
+
 
 
 
