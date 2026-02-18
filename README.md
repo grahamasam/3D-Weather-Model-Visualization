@@ -1,3 +1,4 @@
+```
 3D Weather Model Visualization
 Graham Asam
 
@@ -11,12 +12,25 @@ NOTE: requires the 'vtk_camera.py' helper file. It has been included in the subm
       requires 'vtk' and 'PyQt6'
 
 ______________________________
-
+```
 Example Images:
 
-![img1](report_images/Screenshot00000.png)
+<table>
+  <tr>
+    <td><img src="https://github.com/grahamasam/3D-Weather-Model-Visualization/blob/main/report_images/Screenshot00000.png?raw=true" width="450"></td>
+    <td><img src="https://github.com/grahamasam/3D-Weather-Model-Visualization/blob/main/report_images/Screenshot00001.png?raw=true" width="450"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/grahamasam/3D-Weather-Model-Visualization/blob/main/report_images/cloud%20height%20diff.png?raw=true" width="450"></td>
+    <td><img src="https://github.com/grahamasam/3D-Weather-Model-Visualization/blob/main/report_images/cold%20front%20fold.png?raw=true" width="450"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/grahamasam/3D-Weather-Model-Visualization/blob/main/report_images/differing%20cloud%20height.png?raw=true" width="450"></td>
+    <td><img src="https://github.com/grahamasam/3D-Weather-Model-Visualization/blob/main/report_images/precip%20and%20cold%20front.png?raw=true" width="450"></td>
+  </tr>
+</table>
 
-
+```
 ______________________________
 
 Usage for atmosphere.py:
@@ -86,6 +100,7 @@ pressure_layer_time_extract.py
   Same global variables as combo_grab_volume.py, with one additional variable.
     TARGET_LEVEL - change which pressure layer is extracted (HRRR has pressure layers
                    at 25 hPa increments: 1000, 975, 950, ...).
+```
 
 
 
